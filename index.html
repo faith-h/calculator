@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+  <title>Vanilla JS Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>calculator</h1>
+      <p class="toggler">&#9788;</p>
+    </div>
+
+    <div class="calculator">
+      <input disabled id="screen" value="0" />
+      <div class="grid">
+        <button class="memory">mc</button>
+        <button class="memory">m+</button>
+        <button class="memory">m-</button>
+        <button class="memory">mr</button>
+
+        <button id="clear" class="button-wide">ac</button>
+        <button id="negative">+/-</button>
+        <button class="operand">/</button>
+
+        <button class="num">7</button>
+        <button class="num">8</button>
+        <button class="num">9</button>
+        <button class="operand">x</button>
+
+        <button class="num">4</button>
+        <button class="num">5</button>
+        <button class="num">6</button>
+        <button class="operand">-</button>
+
+        <button class="num">1</button>
+        <button class="num">2</button>
+        <button class="num">3</button>
+        <button class="operand">+</button>
+
+        <button class="num">0</button>
+        <button id="decimal">.</button>
+        <button id="calculate" class="button-wide">=</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+
+</html>
